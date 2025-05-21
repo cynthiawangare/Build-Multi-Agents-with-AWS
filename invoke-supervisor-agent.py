@@ -10,8 +10,8 @@ def lambda_handler(event, context):
 
     try:
         response = client.invoke_agent(
-            agentId='9PUBCJW6RB', # copy the Id of the supervisor agent
-            agentAliasId='AJRT6NLBG1', # copy the supervisor agent alias id and paste here
+            agentId='xxxxxxx', # copy the Id of the supervisor agent
+            agentAliasId='xxxxxx', # copy the supervisor agent alias id and paste here
             sessionId=session_id,
             endSession=False,
             inputText=input_text
